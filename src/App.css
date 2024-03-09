@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.button-add {
+  width: 100%;
+  padding: 8px 0;
+}
+
+.button-delete{
+    padding: 8px 12px;
+    margin-left: 5px;
+}
+
+.input-add {
+  width: 100%;
+  padding: 8px 10px;
+}
+
+::placeholder{
+    font-size: 14px;
+}
+
+.list-todo{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.divider{
+  margin-bottom: 6px;
+}
+
